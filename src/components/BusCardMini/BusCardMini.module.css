@@ -1,0 +1,33 @@
+.container {
+  width: fit-content;
+  min-width: 65px;
+
+  height: 30px;
+  margin-left: 7px;
+  margin-right: 7px;
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container i {
+  padding: 3px;
+}
+.container > div:first-child {
+  width: 100%;
+  height: 90%;
+  padding: 0 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 100%;
+  flex-grow: 1;
+  background-color: var(--actionColor);
+}

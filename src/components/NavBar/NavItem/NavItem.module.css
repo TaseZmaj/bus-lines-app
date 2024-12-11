@@ -1,0 +1,73 @@
+div.container {
+  border-radius: 15px;
+
+  width: 98%;
+  height: 70px;
+  box-sizing: border-box;
+
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: row;
+}
+div.container:hover {
+  background-color: var(--offWhite) !important;
+}
+
+/* left */
+div.left {
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.icon_container {
+  background: var(--actionColor);
+  border-radius: 15px;
+  margin: 0 10px;
+  width: 2.7rem;
+  height: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+div.icon_container i {
+  padding: 0;
+  margin: 0;
+}
+/* right */
+div.right {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+div.right p {
+  padding: 0;
+  margin: 0;
+  color: var(--actionColor);
+}
+
+/* ACTIVE */
+p.active {
+  color: var(--pureWhite);
+}
+div.container_active {
+  background-color: var(--actionColor);
+  pointer-events: none;
+}
+div.container_active p {
+  color: var(--offWhite) !important;
+}
+div.container_active .icon_container {
+  border: 2px solid var(--offWhite);
+}

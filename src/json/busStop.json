@@ -1,0 +1,177 @@
+[
+  {
+    "true_number": 1,
+    "number": "0001",
+    "name": "Centar Rekord - Kon Zapad",
+    "type": "bus stop",
+    "mapUrl": "0001_stop.jpg",
+    "buses": [
+      "3",
+      "4",
+      "5",
+      "7",
+      "15",
+      "21",
+      "22",
+      "23",
+      "24",
+      "27",
+      "33",
+      "50",
+      "57"
+    ]
+  },
+  {
+    "true_number": 2,
+    "number": "0002",
+    "name": "Centar Rekord - Kon Istok",
+    "type": "bus stop",
+    "mapUrl": "0002_stop.jpg",
+    "buses": [
+      "3",
+      "4",
+      "5",
+      "7",
+      "15",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "27",
+      "33",
+      "50",
+      "57"
+    ]
+  },
+  {
+    "true_number": 3,
+    "number": "0003",
+    "name": "Gradska Bolnica",
+    "type": "bus stop",
+    "mapUrl": "0003_stop.jpg",
+    "buses": [
+      "3",
+      "4",
+      "5",
+      "7",
+      "15",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "27",
+      "33"
+    ]
+  },
+  {
+    "true_number": 4,
+    "number": "0004",
+    "name": "Zelen Pazar",
+    "type": "bus stop",
+    "mapUrl": "0004_stop.jpg",
+    "buses": [
+      "3a",
+      "3b",
+      "4",
+      "5",
+      "7",
+      "16",
+      "21a",
+      "22",
+      "23",
+      "24",
+      "25",
+      "27",
+      "41a"
+    ]
+  },
+  {
+    "true_number": 9,
+    "number": "0009",
+    "name": "Vero Dzambo",
+    "type": "bus stop",
+    "mapUrl": "0009_stop.jpg",
+    "buses": ["3a", "3b", "5", "7", "15", "21", "21a", "22", "27", "33", "58"]
+  },
+  {
+    "true_number": 10,
+    "number": "0010",
+    "name": "Zeleznicka Stanica - Kon Centar",
+    "type": "bus stop",
+    "mapUrl": "0010_stop.jpg",
+    "buses": ["3a", "3b", "5", "15", "23", "27", "33"]
+  },
+  {
+    "true_number": 11,
+    "number": "0011",
+    "name": "Zeleznicka Stanica - Kon Aerodrom",
+    "type": "bus stop",
+    "mapUrl": "0011_stop.jpg",
+    "buses": ["3a", "3b", "5", "15", "23", "27", "33"]
+  },
+  {
+    "true_number": 14,
+    "number": "0014",
+    "name": "Aerodrom Palma",
+    "type": "bus stop",
+    "mapUrl": "0014_stop.jpg",
+    "buses": ["3a", "3b", "5", "15", "23", "27", "33"]
+  },
+  {
+    "true_number": 20,
+    "number": "0020",
+    "name": "TC Kapitol",
+    "type": "bus stop",
+    "mapUrl": "0020_stop.jpg",
+    "buses": ["3a", "3b", "5", "15", "23", "27", "33"]
+  },
+  {
+    "true_number": 290,
+    "number": "0290",
+    "name": "Dolno Nerezi - Kon Centar",
+    "type": "bus stop",
+    "mapUrl": "0290_stop.jpg",
+    "buses": ["2", "4", "11", "12", "21", "21a", "22", "60"]
+  },
+  {
+    "true_number": 273,
+    "number": "0273",
+    "name": "Gradezen Fakultet",
+    "type": "bus stop",
+    "mapUrl": "0273_stop.jpg",
+    "buses": ["2", "4", "11", "12", "18", "19", "21", "21a", "22", "24", "60"]
+  },
+  {
+    "true_number": 180,
+    "number": "0180",
+    "name": "Fabrika Mirka Ginova",
+    "type": "bus stop",
+    "mapUrl": "0180_stop.jpg",
+    "buses": ["13", "24", "58", "58a", "58b"]
+  },
+  {
+    "true_number": 352,
+    "number": "0352",
+    "name": "Gjorce Petrov Poliklinika",
+    "type": "bus stop",
+    "buses": ["4", "21", "21a", "22"]
+  },
+  {
+    "true_number": 286,
+    "number": "0286",
+    "name": "Taftalidze Pazar - Kon Centar",
+    "type": "bus stop",
+    "mapUrl": "0286_stop.jpg",
+    "buses": ["4a", "24"]
+  },
+  {
+    "true_number": 345,
+    "number": "0345",
+    "name": "Karposh 4 - Kon Centar",
+    "type": "bus stop",
+    "mapUrl": "0345_stop.jpg",
+    "buses": ["15", "19"]
+  }
+]

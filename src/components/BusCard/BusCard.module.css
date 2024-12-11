@@ -1,0 +1,71 @@
+div.card_container {
+  margin: 10px;
+  padding: 0;
+  width: 250px;
+  max-width: 400px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: var(--pureWhite);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+  /* transition: all 0.3s ease-in-out; */
+
+  display: flex;
+  flex-direction: column;
+}
+div.card_container:hover {
+  /* border: 1px solid var(--actionColor); */
+  animation-name: lift;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+/* Img container */
+div.img_container {
+  width: 100%;
+  height: 60%;
+  margin: 0;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 12px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+div.img_container img {
+  max-width: 100%;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+/* Text container */
+div.text_container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 7px;
+}
+.text_container h1 {
+  margin: 0 0 0 0.6rem;
+  color: var(--actionColor);
+  z-index: 14;
+}
+.text_container p {
+  margin: 0 0 0 0.6rem;
+  color: var(--black);
+}
+
+@keyframes lift {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-7px);
+    /* border: 1px solid var(--darkGray); */
+  }
+}

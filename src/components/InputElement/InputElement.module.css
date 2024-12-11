@@ -1,0 +1,50 @@
+div.input_container {
+  width: 100%;
+  height: 71px;
+  background-color: var(--actionColor);
+  margin: 0;
+  border-radius: 18px;
+  box-sizing: border-box;
+  float: top;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.input_container div.input_field {
+  height: 40px;
+  width: 94%;
+  padding: 0;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.7s ease-in-out;
+}
+div.input_container input {
+  border: none;
+  padding-left: 2.6rem;
+  border-radius: 15px;
+  background-color: var(--offWhite);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+}
+div.input_container input:active {
+  border: 1px solid var(--red);
+}
+/* icon */
+div.input_field i {
+  color: var(--black);
+  opacity: 0.8;
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
